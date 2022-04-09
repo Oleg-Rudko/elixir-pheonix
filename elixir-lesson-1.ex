@@ -15,6 +15,7 @@ defmodule Rectangle do
       IO.puts("Area = #{w*h}")
       area_loop()
       {:pmeter, w, h} ->
+      - But here I really want to have conflict
       IO.puts("pmeter = #{w*h}")
       area_loop()
     end
